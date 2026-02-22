@@ -1,0 +1,72 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 24px;
+}
+
+/* Profile Card */
+.profile {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.profile img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Name */
+.profile h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Info Text */
+.profile p {
+    margin: 6px 0;
+    color: #555;
+    font-size: 15px;
+}
+
+/* Bio Section */
+.bio {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .profile {
+        padding: 20px;
+    }
+}
